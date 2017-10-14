@@ -4,11 +4,21 @@
 
 This is Emphasia's Simplified Chinese translation for [johanneszab's TumblThree](https://github.com/johanneszab/TumblThree).
 
+- 作者页面：https://www.jzab.de/content/tumblthree
+- 未来的新功能与改进：https://github.com/johanneszab/TumblThree/wiki/New-Feature-Requests-and-Possible-Enhancements
+- 程序BUG或建议：https://github.com/johanneszab/TumblThree/issues
+
 ## 下载 Download
 
-只是把作者发布的主程序和语言文件整合，同步的版本因新功能可能会有未翻译和错误的情况，而完全翻译的版本一般会晚一个版本。https://github.com/Emphasia/TumblThree/releases
+https://github.com/Emphasia/TumblThree-zh/releases
 
-TumblThree作者最新版本、别的版本及更新历史： https://github.com/johanneszab/TumblThree/releases
+> 因语言文件越来越臃肿，作者已将主程序和语言文件分别发布。
+>
+> 该版本只是把作者发布的两部分整合，保留中英。
+>
+> 同步的版本因新功能的增加可能会有未翻译和错误的情况，而完全翻译的版本一般会晚一个版本。
+
+TumblThree作者的最新版本、别的版本及更新历史： https://github.com/johanneszab/TumblThree/releases
 
 ## 新手入门 Getting Started
 
@@ -17,7 +27,7 @@ TumblThree作者最新版本、别的版本及更新历史： https://github.com
 - `全局` -> `下载目录`：指定下载的文件的存放位置。默认在程序当前目录下。
 - `博客` 中的设置作为新添加的博客的默认设置*（仅对新添加的博客有效）*
 - 要改变单独某个博客的下载，在`主界面`选中该博客，转到右侧`详细`标签页并更改设置。同时更改多个博客的下载设置请使用`Shift + 左键`或`Ctrl + A`全选。
-- 注意：你可能总是想要选中：
+- 注意：你可能总是想要选中启用：
   - _下载转发的帖_：下载博主转发的帖子而不只是其原创的帖子 。
   - _强制重新扫描_：强制重新扫描会重新扫描爬取整个博客而不仅是上一次成功爬取后新增加的帖子。博客数据（总贴数、各类帖数、重复数等）当前只能在爬取整个博客时才会更新。因此，此功能不开启可能会导致实际下载的数量比显示的多。如果你不在乎显示的数据，关闭此功能可以减少扫描的时间因为程序会跳过扫描已下载的帖子。
 
@@ -28,7 +38,7 @@ TumblThree作者最新版本、别的版本及更新历史： https://github.com
 
 一般情况下你不需要改变其他的连接设置。特别的，除非你明确知道其作用否则不要去更改的：
 
-- `全局` -> 限制Tumblr-Api连接数：保持选中且不要改变对应的*90连接数每60秒*。如果你执意要更改，你可能会得到*博客离线*或*下载不全*。
+- `全局` -> 限制Tumblr-Api连接数：保持选中启用且不要改变对应的值（默认*90连接数每60秒*）。如果你执意更改，你可能会得到*博客离线*或*下载不全*等问题。
 
 ## 使用 Usage
 
@@ -67,7 +77,7 @@ TumblThree作者最新版本、别的版本及更新历史： https://github.com
   - `Shift + 空格` - 停止
   - `Del` - 从队列移除
   - `Shift + Del` - 从博客管理器移除
-  - `Ctrl + Shift + G` - 开始 garbage collection
+  - `Ctrl + Shift + G` - 开始垃圾回收
 - 保存的设置
   - 设置文件保存在 C:\\Users\\*Username*\\AppData\\Local\\TumblThree\\
   - 你可以使用 *便携模式* (设置->全局) 将设置文件保存在程序当前目录
@@ -90,13 +100,12 @@ TumblThree作者最新版本、别的版本及更新历史： https://github.com
 * 使用SSL而不是不安全的http连接
 * 任务栏图标和快捷键绑定
 
-### 博客备份或下载 Blog backup/download:
+### 博客备份或下载 Blog backup/download
 
 * 可下载图片、视频、文本、音频、引用、对话、链接和回复贴
 * 可下载图片、视频、音频的元数据
 * 可下载内嵌的图片和视频
 * 可下载safe-mode、密码保护或隐藏的博客
-* 密码保护或隐藏的博客
 * 可仅下载原创帖而跳过转发帖
 * 可仅下载带标签（或指定标签）的帖子
 * 可下载特定页数或时间段内的帖子而不是整个博客
