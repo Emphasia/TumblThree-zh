@@ -142,7 +142,7 @@
     <value>无</value>
   </data>
   <data name="BlogTypesOnceFinished" xml:space="preserve">
-    <value>一旦完成</value>
+    <value>有完成过</value>
   </data>
   <data name="Body" xml:space="preserve">
     <value>Body: {0]</value>

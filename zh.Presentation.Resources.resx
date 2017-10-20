@@ -346,7 +346,7 @@
     <value>于</value>
   </data>
   <data name="Timer" xml:space="preserve">
-    <value>(时:分:秒)开始下载并将</value>
+    <value>(时:分:秒)开始下载，并将</value>
   </data>
   <data name="SelectABlog" xml:space="preserve">
     <value>请选择一个博客</value>
@@ -433,7 +433,8 @@
     <value>即使tumblr未提供也强制下载指定分辨率的图片。</value>
   </data>
   <data name="ToolTipForceSizeDescription" xml:space="preserve">
-    <value>如果下载器只找到比指定分辨率更小的图片，启用这个选项将把url重命名为指定文件分辨率。通常能提供更大的分辨率，但也可能只是重新命名了较小分辨率的图片。打开较保险。</value>
+    <value>如果下载器只找到比指定分辨率更小的图片，启用此选项将会得到文件名为指定文件分辨率而实际为可得到的最大分辨率的文件。
+原理是把下载地址定为指定文件分辨率的URL，通常能提供更大的分辨率，但也可能只是重新命名了较小分辨率的图片。打开较保险。</value>
   </data>
   <data name="ProxyHost" xml:space="preserve">
     <value>HTTP代理：</value>
@@ -442,10 +443,10 @@
     <value>端口：</value>
   </data>
   <data name="ThirdPartySoftware" xml:space="preserve">
-    <value>第三方软件</value>
+    <value>第三方软件许可</value>
   </data>
   <data name="ThirdPartySoftwareDescription" xml:space="preserve">
-    <value>第三方软件和许可</value>
+    <value>第三方软件的许可</value>
   </data>
   <data name="ToolTipLimitBandwidth" xml:space="preserve">
     <value>限制下载器的速度</value>
@@ -634,7 +635,7 @@
     <value>有密码保护博客的密码</value>
   </data>
   <data name="ToolTipPasswordDescription" xml:space="preserve">
-    <value>注意:密码在博客数据库中以明文保存。</value>
+    <value>密码在博客数据库中以明文保存。</value>
   </data>
   <data name="Blogtype" xml:space="preserve">
     <value>类型</value>
@@ -670,7 +671,7 @@
     <value>Twitter</value>
   </data>
   <data name="AutoDownloadBlogs" xml:space="preserve">
-    <value>博客添加到队列。</value>
+    <value>的博客添加到队列。</value>
   </data>
   <data name="ToolTipTimeout" xml:space="preserve">
     <value>请求超时</value>
