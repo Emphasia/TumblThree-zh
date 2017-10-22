@@ -10,7 +10,7 @@ This is Emphasia's Simplified Chinese translation for [johanneszab's TumblThree]
 
 ## 下载 Download
 
-🤘 https://github.com/Emphasia/TumblThree-zh/releases
+👉 https://github.com/Emphasia/TumblThree-zh/releases
 
 > 因语言文件越来越臃肿，作者已将主程序和语言文件分别发布。
 >
@@ -42,7 +42,7 @@ TumblThree作者的最新版本、别的版本及更新历史： https://github.
 
 - `全局` -> 限制Tumblr-Api连接数：保持选中启用且不要改变对应的值（默认*90连接数每60秒*）。如果你执意更改，你可能会得到*博客离线*或*下载不全*等问题。
 
-## 使用 Usage
+## 使用指南 Usage
 
 - 下载并解压 `.zip` 文件，运行 `TumblThree.exe`。
 - 复制想要备份或下载的tumblr博客`URL` (http(s)://\*.tumblr.com\*)到底部的文本框（或使用剪贴板监视功能自动添加）后，点击右边的 `添加博客`。
@@ -72,18 +72,31 @@ TumblThree作者的最新版本、别的版本及更新历史： https://github.
     3. 将该博客添加到队列并下载
 
 
+### 进阶使用 Further Insights
+
 - 快捷键
-  - 可从左侧博客管理器直接拖拽到队列添加
+  - 双击博客可将其添加到队列
+  - 从左侧博客管理器直接拖拽到队列来添加
   - `空格` - 开始
   - `Ctrl + 空格` - 暂停
   - `Shift + 空格` - 停止
   - `Del` - 从队列移除
   - `Shift + Del` - 从博客管理器移除
   - `Ctrl + Shift + G` - 开始垃圾回收
-- 保存的设置
-  - 设置文件保存在 C:\\Users\\*Username*\\AppData\\Local\\TumblThree\\
+
+- 保存的文件
+  - 注意：以下文件都以json格式保存
+  - 设置文件(Settings.json) 保存在 C:\\Users\\*用户名*\\AppData\\Local\\TumblThree\\
   - 你可以使用 *便携模式* (设置->全局) 将设置文件保存在程序根目录
-  - 对每个博客在下载目录 (默认在程序目录下的 _.\\Blogs\\_ ) 有一个以博客名命名的索引文件(index file)。其中储存了博客URL、何时添加、哪些文件已被下载等信息。这使你能够移动已下载的文件到别的目录而不影响下载过程。
+  - 对每个博客，在下载目录（默认在程序根目录下的 _.\\Blogs\\_）下有一个以博客名命名的 索引(*Index*) 文件夹 中有 数据库(序列化类) 文件。其中储存了博客URL、何时添加、哪些文件已被下载等信息。这使你能够移动已下载的文件到别的目录而不影响下载过程。
+
+- 另有一些设置未在UI中显示，要查看或修改全部的设置可打开设置文件(Settings.json)。
+
+  其中一些值得注意的可以进一步优化应用程序的设置：
+
+  - BufferSize：设定下载时的缓存大小（为4KB的倍数，其默认值为512即大小为4KB*512=2MB）。增大其值会减少磁盘碎片因为文件将先在内存中积攒并一次性连块写入磁盘，但同时也会因此增加内存的使用量。
+  - MaxNumberOfRetries：设定当服务器强制关闭连接时重试次数的上限。当同时打开太多与tumblr视频服务器(vt.tumblr.com)的连接时这可能会经常发生。当此上限被耗尽时，文件就会下载不完整（下一次下载时会恢复继续下载）。
+  - TumblrHosts：包含一系列在下载原始(\_raw)图片时用来尝试的服务器(hosts)。如果所有的服务器都不包含原始(\_raw)版本，将会继续尝试较低一级的分辨率(1028)。
 
 ## 功能 Features
 
@@ -115,3 +128,7 @@ TumblThree作者的最新版本、别的版本及更新历史： https://github.
 * 可下载tumblr搜索结果中的图片和视频 (e.g. http://www.tumblr.com/search/my+keywords)
 * 可下载tumblr标签搜索结果中的图片和视频 (e.g. http://www.tumblr.com/tagged/my+keywords) (需要登录)
 
+
+### 不足之处 Limitations
+
+- Windows XP 已不支持
