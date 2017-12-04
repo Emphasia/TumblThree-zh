@@ -689,7 +689,7 @@
     <value>Twitter</value>
   </data>
   <data name="ExternalSettings" xml:space="preserve">
-    <value>外部</value>
+    <value>外链</value>
   </data>
   <data name="DownloadGfycat" xml:space="preserve">
     <value>下载 Gfycat</value>
@@ -729,5 +729,14 @@
   </data>
   <data name="ToolTipWebmshareFiletypeDescription" xml:space="preserve">
     <value>选择你想要下载的文件类型</value>
+  </data>
+  <data name="DumpCrawlerData" xml:space="preserve">
+    <value>写入下载器数据</value>
+  </data>
+  <data name="ToolTipDumpCrawlerData" xml:space="preserve">
+    <value>将下载器的数据写入磁盘。</value>
+  </data>
+  <data name="ToolTipDumpCrawlerDataDescription" xml:space="preserve">
+    <value>将下载器搜集的数据按博客分别写入磁盘。</value>
   </data>
 </root>
