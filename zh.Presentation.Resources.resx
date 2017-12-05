@@ -739,4 +739,13 @@
   <data name="ToolTipDumpCrawlerDataDescription" xml:space="preserve">
     <value>将下载器搜集的数据按博客分别写入磁盘。</value>
   </data>
+  <data name="FileDownloadLocation" xml:space="preserve">
+    <value>下载位置</value>
+  </data>
+  <data name="ToolTipFileDownloadLocation" xml:space="preserve">
+    <value>覆盖默认下载位置</value>
+  </data>
+  <data name="ToolTipFileDownloadLocationDescription" xml:space="preserve">
+    <value>此项非空时所有的文件都将下载到指定的文件夹</value>
+  </data>
 </root>
