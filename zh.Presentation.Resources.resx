@@ -748,4 +748,16 @@
   <data name="ToolTipFileDownloadLocationDescription" xml:space="preserve">
     <value>此项非空时所有的文件都将下载到指定的文件夹</value>
   </data>
+  <data name="LoadAllDatabases" xml:space="preserve">
+    <value>检查所有博客的已存在文件</value>
+  </data>
+  <data name="ToolTipLoadAllDatabases" xml:space="preserve">
+    <value>爬取进行时以所有博客为范围检查文件是否存在。</value>
+  </data>
+  <data name="ToolTipLoadAllDatabasesDescription" xml:space="preserve">
+    <value>爬取时，下载前将以所有博客为范围检查文件来避免重复下载。
+默认以单个博客为范围，启用此选项将以所有博客为范围。
+启用将增加工作时内存的占用（与已下载内容大小有关）。
+重启生效。</value>
+  </data>
 </root>
