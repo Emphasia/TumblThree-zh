@@ -183,6 +183,15 @@
   <data name="CrawlerError" xml:space="preserve">
     <value>抓取工具线程遇到错误。</value>
   </data>
+  <data name="Crawling" xml:space="preserve">
+    <value>爬取中</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>下载中</value>
+  </data>
+  <data name="TimeoutReached" xml:space="preserve">
+    <value>{0} 的 {1} 出现连接超时。</value>
+  </data>
   <data name="Date" xml:space="preserve">
     <value>Date: {0}</value>
   </data>

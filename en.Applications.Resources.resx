@@ -181,7 +181,16 @@
     <value>Could not initialize the OAuth Manager</value>
   </data>
   <data name="CrawlerError" xml:space="preserve">
-    <value>The Crawler Thread encountered an error.</value>
+    <value>The Crawler thread encountered an error.</value>
+  </data>
+  <data name="Crawling" xml:space="preserve">
+    <value>crawling</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>downloading</value>
+  </data>
+  <data name="TimeoutReached" xml:space="preserve">
+    <value>A connection timout occured during {0} of {1}.</value>
   </data>
   <data name="Date" xml:space="preserve">
     <value>Date: {0}</value>
