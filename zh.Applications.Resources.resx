@@ -195,6 +195,14 @@
   <data name="Date" xml:space="preserve">
     <value>Date: {0}</value>
   </data>
+  <data name="DeleteBlogsDialog" xml:space="preserve">
+    <value>你确定要删除以下序号博客？
+{0}</value>
+  </data>
+  <data name="DeleteBlogsAndFilesDialog" xml:space="preserve">
+    <value>你确定要删除以下序号博客及其所有已下载文件？
+{0}</value>
+  </data>
   <data name="DiskFull" xml:space="preserve">
     <value>磁盘空间不足。</value>
   </data>

@@ -759,4 +759,7 @@
 默认以单个博客为范围，启用此选项将以所有博客为范围。
 启用将增加工作时内存的占用（与已下载内容大小有关）。</value>
   </data>
+  <data name="DisplayConfirmationDialog" xml:space="preserve">
+    <value>显示确认对话框？</value>
+  </data>
 </root>
