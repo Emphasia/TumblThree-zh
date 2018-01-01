@@ -323,6 +323,9 @@
   <data name="Tags" xml:space="preserve">
     <value>Tags: {0}</value>
   </data>
+  <data name="Textfile" xml:space="preserve">
+    <value>Text file</value>
+  </data>
   <data name="Title" xml:space="preserve">
     <value>Title: {0}</value>
   </data>
