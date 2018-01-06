@@ -141,4 +141,13 @@
   <data name="webp" xml:space="preserve">
     <value>webp</value>
   </data>
+  <data name="json" xml:space="preserve">
+    <value>json</value>
+  </data>
+  <data name="text" xml:space="preserve">
+    <value>text</value>
+  </data>
+  <data name="xml" xml:space="preserve">
+    <value>xml</value>
+  </data>
 </root>
