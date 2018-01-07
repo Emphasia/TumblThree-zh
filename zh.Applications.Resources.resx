@@ -299,6 +299,9 @@
   <data name="ProgressGetUrlShort" xml:space="preserve">
     <value>已评估 {0} 个博客。</value>
   </data>
+  <data name="ProgressSkipFile" xml:space="preserve">
+    <value>{0} 个已下载，正在跳过...</value>
+  </data>
   <data name="ProgressUniqueDownloads" xml:space="preserve">
     <value>统计唯一的下载，删除重复文件...</value>
   </data>
