@@ -6,7 +6,10 @@ This is Emphasia's Simplified Chinese translation for [johanneszab's TumblThree]
 
 - 作者页面：https://www.jzab.de/content/tumblthree
 - 未来的新功能与改进：https://github.com/johanneszab/TumblThree/wiki/New-Feature-Requests-and-Possible-Enhancements
-- 程序BUG或建议：https://github.com/johanneszab/TumblThree/issues
+- 程序BUG或建议：
+  - 向作者提*（建议英语）*：https://github.com/johanneszab/TumblThree/issues
+  - 向我提*（中英皆可）*：https://github.com/Emphasia/TumblThree-zh/issues
+  - 注意：在国内的网络环境下，**设定用于下载的代理**可能是必须的，这并不是TumblThree的BUG。
 
 ## 下载 Download
 
