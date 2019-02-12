@@ -217,7 +217,7 @@
     <value>Show details</value>
   </data>
   <data name="ShowFiles" xml:space="preserve">
-    <value>Show Files</value>
+    <value>Show files</value>
   </data>
   <data name="Stop" xml:space="preserve">
     <value>Stop</value>
@@ -234,20 +234,11 @@
   <data name="ImageSize" xml:space="preserve">
     <value>Image size (px)</value>
   </data>
-  <data name="ConcurrentConnections" xml:space="preserve">
-    <value>Concurrent connections</value>
-  </data>
-  <data name="ConcurrentVideoConnections" xml:space="preserve">
-    <value>Concurrent video connections:</value>
-  </data>
-  <data name="ToolTipVideoConnections" xml:space="preserve">
-    <value>Number of concurrent connections to the tumblr video host</value>
-  </data>
-  <data name="ToolTipVideoConnectionsDescription" xml:space="preserve">
-    <value>The vt.tumblr.com host regularly closes connections if the number is too high.</value>
-  </data>
   <data name="ConcurrentBlogs" xml:space="preserve">
     <value>Concurrent blogs</value>
+  </data>
+  <data name="ConcurrentConnections" xml:space="preserve">
+    <value>Concurrent connections</value>
   </data>
   <data name="Online" xml:space="preserve">
     <value>Online</value>
@@ -262,7 +253,7 @@
     <value>1 Blog</value>
   </data>
   <data name="CheckStatus" xml:space="preserve">
-    <value>Check blog online status on startup</value>
+    <value>Check blog online status</value>
   </data>
   <data name="DeleteIndex" xml:space="preserve">
     <value>Delete only the index files (no downloaded files)</value>
@@ -328,8 +319,7 @@
     <value>Authenticate to the tumblr.com network</value>
   </data>
   <data name="ToolTipAuthenticateDescription" xml:space="preserve">
-    <value>Opens a browser window to authenticate yourself to the tumblr.com site.
-The cookie with your credentials of your account is saved and the authentication process needs to be done only once.</value>
+    <value>Authenticate to the tumblr.com network</value>
   </data>
   <data name="ToolTipBlogs" xml:space="preserve">
     <value>Number of concurrent processing blogs</value>
@@ -351,12 +341,6 @@ The number is shared between all actively downloading blogs.</value>
   <data name="TimeOut" xml:space="preserve">
     <value>Timeout (s)</value>
   </data>
-  <data name="ToolTipTimeout" xml:space="preserve">
-    <value>Timeout for web requests</value>
-  </data>
-  <data name="ToolTipTimeoutDescription" xml:space="preserve">
-    <value>The length of time, in seconds, until the request times out.</value>
-  </data>
   <data name="Bandwidth" xml:space="preserve">
     <value>Limit Bandwidth (KB/s)</value>
   </data>
@@ -365,9 +349,6 @@ The number is shared between all actively downloading blogs.</value>
   </data>
   <data name="Timer" xml:space="preserve">
     <value>(hh:mm:ss) and add</value>
-  </data>
-  <data name="AutoDownloadBlogs" xml:space="preserve">
-    <value>blogs to the queue.</value>
   </data>
   <data name="SelectABlog" xml:space="preserve">
     <value>Please select a blog</value>
@@ -478,11 +459,11 @@ It's safe to turn this on.</value>
     <value>Sets the maximum bandwidth available for the downloader in kbytes/s.
 0 disables throttling.</value>
   </data>
-  <data name="ScanConnections" xml:space="preserve">
-    <value>Scan connections</value>
-  </data>
   <data name="LimitScan" xml:space="preserve">
     <value>Limit the scan bandwidth</value>
+  </data>
+  <data name="ScanConnections" xml:space="preserve">
+    <value>Scan connections</value>
   </data>
   <data name="ToolTipLimitScan" xml:space="preserve">
     <value>Includes the scan bandwidth in the throttling</value>
@@ -495,8 +476,9 @@ since the throttling algorithm is too slow to adjust and might negatively impact
     <value>Number of connections used for each scan</value>
   </data>
   <data name="ToolTipScanDescription" xml:space="preserve">
-    <value>Sets the number connections used for scanning.
-Since the data is usually small, you should leave this high.</value>
+    <value>Sets the number of connections used for scanning.
+Since the data is usually small, you should leave this high.
+Note: This setting has no impact if the Limit Tumblr Api Connections setting is turned on.</value>
   </data>
   <data name="BandwidthRangeError" xml:space="preserve">
     <value>The value must be between 0 and 9,000,000,000,000,000.</value>
@@ -513,11 +495,11 @@ Since the data is usually small, you should leave this high.</value>
   <data name="ConnectionTimeInterval" xml:space="preserve">
     <value>per time interval (s):</value>
   </data>
+  <data name="LimitConnections" xml:space="preserve">
+    <value>Limit Tumblr API connections:</value>
+  </data>
   <data name="MaxConnections" xml:space="preserve">
     <value>Number of connections:</value>
-  </data>
-  <data name="LimitConnections" xml:space="preserve">
-    <value>Limit Tumblr Api Connections:</value>
   </data>
   <data name="ToolTipLimitConnections" xml:space="preserve">
     <value>Limit connections to the tumblr api.</value>
@@ -638,19 +620,19 @@ E.g. 50 means to scan 50 posts per page.</value>
   <data name="ToolTipDownloadFrom" xml:space="preserve">
     <value>Crawl posts from this date</value>
   </data>
-  <data name="ToolTipDownloadFromDescription" xml:space="preserve">
-    <value>Must be in YYYYMMDD format. Empty means from the beginning of the blog.</value>
+  <data name="ToolTipDownloadTagsFromDescription" xml:space="preserve">
+    <value>Must be in YYYYMMDD format. Empty means from May 2007.</value>
   </data>
   <data name="ToolTipDownloadTo" xml:space="preserve">
     <value>Crawl posts to this date</value>
   </data>
-  <data name="ToolTipDownloadToDescription" xml:space="preserve">
+  <data name="ToolTipDownloadTagsToDescription" xml:space="preserve">
     <value>Must be in YYYYMMDD format. Empty means to now.</value>
   </data>
-  <data name="ToolTipDownloadTagsFromDescription" xml:space="preserve">
-    <value>Must be in YYYYMMDD format. Empty means from May 2007.</value>
+  <data name="ToolTipDownloadFromDescription" xml:space="preserve">
+    <value>Must be in YYYYMMDD format. Empty means from the beginning of the blog.</value>
   </data>
-  <data name="ToolTipDownloadTagsToDescription" xml:space="preserve">
+  <data name="ToolTipDownloadToDescription" xml:space="preserve">
     <value>Must be in YYYYMMDD format. Empty means to now.</value>
   </data>
   <data name="ToolTipPageSizeTumblrSearch" xml:space="preserve">
@@ -702,20 +684,38 @@ E.g.  great big car, bears searches for great big cars and bears.</value>
   <data name="BlogtypeTwitter" xml:space="preserve">
     <value>Twitter</value>
   </data>
+  <data name="AutoDownloadBlogs" xml:space="preserve">
+    <value>blogs to the queue.</value>
+  </data>
+  <data name="ToolTipTimeout" xml:space="preserve">
+    <value>Timeout for web requests</value>
+  </data>
+  <data name="ToolTipTimeoutDescription" xml:space="preserve">
+    <value>The length of time, in seconds, until the request times out.</value>
+  </data>
+  <data name="ConcurrentVideoConnections" xml:space="preserve">
+    <value>Concurrent video connections</value>
+  </data>
+  <data name="ToolTipVideoConnections" xml:space="preserve">
+    <value>Number of concurrent connections to the tumblr video host</value>
+  </data>
+  <data name="ToolTipVideoConnectionsDescription" xml:space="preserve">
+    <value>The v*.tumblr.com hosts regularly close connections if the number is too high.</value>
+  </data>
   <data name="ExternalSettings" xml:space="preserve">
     <value>External</value>
   </data>
   <data name="DownloadGfycat" xml:space="preserve">
     <value>Download gfycat</value>
   </data>
+  <data name="DownloadWebmshare" xml:space="preserve">
+    <value>Download webmshare</value>
+  </data>
   <data name="ToolTipDownloadGfycat" xml:space="preserve">
     <value>Download linked gfycat.com files</value>
   </data>
   <data name="ToolTipDownloadGfycatDescription" xml:space="preserve">
     <value>Download externally hosted gfycat.com files</value>
-  </data>
-  <data name="DownloadWebmshare" xml:space="preserve">
-    <value>Download webmshare</value>
   </data>
   <data name="ToolTipDownloadWebmshare" xml:space="preserve">
     <value>Download linked webmshare.com files</value>
@@ -778,5 +778,167 @@ Activation will increase the memory usage during operation based on the amount o
   </data>
   <data name="MetadataFormat" xml:space="preserve">
     <value>Metadata format</value>
+  </data>
+  <data name="DownloadCatBox" xml:space="preserve">
+    <value>Download catbox</value>
+  </data>
+  <data name="DownloadLoliSafe" xml:space="preserve">
+    <value>Download lolisafe</value>
+  </data>
+  <data name="DownloadMixtape" xml:space="preserve">
+    <value>Download mixtape</value>
+  </data>
+  <data name="DownloadSafeMoe" xml:space="preserve">
+    <value>Download safemoe</value>
+  </data>
+  <data name="DownloadUguu" xml:space="preserve">
+    <value>Download uguu</value>
+  </data>
+  <data name="ToolTipCatBoxFiletype" xml:space="preserve">
+    <value>File type to download</value>
+  </data>
+  <data name="ToolTipCatBoxFiletypeDescription" xml:space="preserve">
+    <value>Chose which file type you want to download</value>
+  </data>
+  <data name="ToolTipDownloadCatBox" xml:space="preserve">
+    <value>Download linked CatBox files</value>
+  </data>
+  <data name="ToolTipDownloadCatBoxDescription" xml:space="preserve">
+    <value>Download externally hosted CatBox files</value>
+  </data>
+  <data name="ToolTipDownloadLoliSafe" xml:space="preserve">
+    <value>Download linked LoliSafe files</value>
+  </data>
+  <data name="ToolTipDownloadLoliSafeDescription" xml:space="preserve">
+    <value>Download externally hosted LoliSafe files</value>
+  </data>
+  <data name="ToolTipDownloadMixtape" xml:space="preserve">
+    <value>Download linked Mixtape.moe files</value>
+  </data>
+  <data name="ToolTipDownloadMixtapeDescription" xml:space="preserve">
+    <value>Download externally hosted Mixtape.moe files</value>
+  </data>
+  <data name="ToolTipDownloadSafeMoe" xml:space="preserve">
+    <value>Download linked SafeMoe files</value>
+  </data>
+  <data name="ToolTipDownloadSafeMoeDescription" xml:space="preserve">
+    <value>Download externally hosted SafeMoe files</value>
+  </data>
+  <data name="ToolTipDownloadUguu" xml:space="preserve">
+    <value>Download linked Uguu files</value>
+  </data>
+  <data name="ToolTipDownloadUguuDescription" xml:space="preserve">
+    <value>Download externally hosted Uguu files</value>
+  </data>
+  <data name="ToolTipLoliSafeFiletype" xml:space="preserve">
+    <value>File type to download</value>
+  </data>
+  <data name="ToolTipLoliSafeFiletypeDescription" xml:space="preserve">
+    <value>Chose which file type you want to download</value>
+  </data>
+  <data name="ToolTipMixtapeFiletype" xml:space="preserve">
+    <value>File type to download</value>
+  </data>
+  <data name="ToolTipMixtapeFiletypeDescription" xml:space="preserve">
+    <value>Chose which file type you want to download</value>
+  </data>
+  <data name="ToolTipSafeMoeFiletype" xml:space="preserve">
+    <value>File type to download</value>
+  </data>
+  <data name="ToolTipSafeMoeFiletypeDescription" xml:space="preserve">
+    <value>Chose which file type you want to download</value>
+  </data>
+  <data name="ToolTipUguuFiletype" xml:space="preserve">
+    <value>File type to download</value>
+  </data>
+  <data name="ToolTipUguuFiletypeDescription" xml:space="preserve">
+    <value>Chose which file type you want to download</value>
+  </data>
+  <data name="ToolTipTumblrLogin" xml:space="preserve">
+    <value>Your tumblr login</value>
+  </data>
+  <data name="ToolTipTumblrLoginDescription" xml:space="preserve">
+    <value>The login is not saved locally but only used for generating a cookie.</value>
+  </data>
+  <data name="ToolTipTumblrPassword" xml:space="preserve">
+    <value>Your tumblr password</value>
+  </data>
+  <data name="ToolTipTumblrPasswordDescription" xml:space="preserve">
+    <value>The password is not saved locally but only used for generating a cookie.</value>
+  </data>
+  <data name="TumblrLogin" xml:space="preserve">
+    <value>Tumblr login</value>
+  </data>
+  <data name="TumblrPassword" xml:space="preserve">
+    <value>Tumblr password</value>
+  </data>
+  <data name="ToolTipAuthenticateBrowser" xml:space="preserve">
+    <value>Authenticate to the tumblr.com network</value>
+  </data>
+  <data name="ToolTipAuthenticateBrowserDescription" xml:space="preserve">
+    <value>Opens a browser window to authenticate yourself to the tumblr.com site.
+The cookie with your credentials of your account is saved and the authentication process needs to be done only once.</value>
+  </data>
+  <data name="UserAgent" xml:space="preserve">
+    <value>User agent</value>
+  </data>
+  <data name="LoggedIn" xml:space="preserve">
+    <value>Logged in as</value>
+  </data>
+  <data name="LoggedOut" xml:space="preserve">
+    <value>Logged out</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="TFANeeded" xml:space="preserve">
+    <value>TFA detected, enter auth code:</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="ToolTipLogout" xml:space="preserve">
+    <value>Logout from Tumblr.com</value>
+  </data>
+  <data name="ToolTipLogoutDescription" xml:space="preserve">
+    <value>Removes the cookies used for authentication from the system.</value>
+  </data>
+  <data name="CheckStatusOnStartup" xml:space="preserve">
+    <value>Check blog online status on startup</value>
+  </data>
+  <data name="ProgressUpdateInterval" xml:space="preserve">
+    <value>Progress update interval (ms)</value>
+  </data>
+  <data name="ToolTipProgressUpdate" xml:space="preserve">
+    <value>Refresh rate of the progress information</value>
+  </data>
+  <data name="ToolTipProgressUpdateDescription" xml:space="preserve">
+    <value>Refresh rate of the progress information in the queue panel.
+This value determines the information refresh rate for each individual queued blog.</value>
+  </data>
+  <data name="RegExPhotos" xml:space="preserve">
+    <value>Search for image patterns</value>
+  </data>
+  <data name="RegExVideos" xml:space="preserve">
+    <value>Search for video patterns</value>
+  </data>
+  <data name="ToolTipRegExPhotos" xml:space="preserve">
+    <value>Search for images in the crawl data</value>
+  </data>
+  <data name="ToolTipRegExPhotosDescription" xml:space="preserve">
+    <value>Uses regular expressions to search for images in everything TumblThree scans.
+This might add plenty of duplicate or random image urls to the queue, but could potentially
+gather images from websites that are currently not supported by a specifically written parser.</value>
+  </data>
+  <data name="ToolTipRegExVideos" xml:space="preserve">
+    <value>Search for videos in the crawl data</value>
+  </data>
+  <data name="ToolTipRegExVideosDescription" xml:space="preserve">
+    <value>Uses regular expressions to search for videos in everything TumblThree scans.
+This might add plenty of duplicate or random video urls to the queue, but could potentially
+gather videos from websites that are currently not supported by a specifically written parser.</value>
+  </data>
+  <data name="ImportFromBlogListFile" xml:space="preserve">
+    <value>Import Blog List</value>
   </data>
 </root>

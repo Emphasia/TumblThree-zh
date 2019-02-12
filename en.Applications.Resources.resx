@@ -121,7 +121,7 @@
     <value>Your application is up to date.</value>
   </data>
   <data name="AudioCaption" xml:space="preserve">
-    <value>Audio Caption: {0}</value>
+    <value>Audio caption: {0}</value>
   </data>
   <data name="AuthenticationFailure" xml:space="preserve">
     <value>Authentication failure: {0}</value>
@@ -130,7 +130,7 @@
     <value>The blog already exist:  {0}</value>
   </data>
   <data name="BlogIsOffline" xml:space="preserve">
-    <value>The Blog is Offline: {0}</value>
+    <value>The blog is offline: {0}</value>
   </data>
   <data name="BlogTypesAll" xml:space="preserve">
     <value>All</value>
@@ -146,6 +146,12 @@
   </data>
   <data name="Body" xml:space="preserve">
     <value>Body: {0]</value>
+  </data>
+  <data name="ConfirmingTumblrPrivacyConsent" xml:space="preserve">
+    <value>confirming to the Tumblr privacy consent</value>
+  </data>
+  <data name="ConfirmingTumblrPrivacyConsentFailed" xml:space="preserve">
+    <value>Confirming to the Tumblr privacy consent failed. There might be a connection issue.</value>
   </data>
   <data name="Conversation" xml:space="preserve">
     <value>Conversation: {0}</value>
@@ -169,7 +175,7 @@
     <value>Could not remove the blog: {0}</value>
   </data>
   <data name="CouldNotRestoreUISettings" xml:space="preserve">
-    <value>Could not restore UI settings.</value>
+    <value>Could not restore user interface settings.</value>
   </data>
   <data name="CouldNotSaveBlog" xml:space="preserve">
     <value>Could not save the blog: {0}</value>
@@ -178,36 +184,33 @@
     <value>The queuelist could not be saved.</value>
   </data>
   <data name="CouldNotStartOAuthManager" xml:space="preserve">
-    <value>Could not initialize the OAuth Manager</value>
+    <value>Could not initialize the OAuth manager</value>
   </data>
   <data name="CrawlerError" xml:space="preserve">
-    <value>The Crawler thread encountered an error.</value>
+    <value>The crawler thread encountered an error.</value>
   </data>
   <data name="Crawling" xml:space="preserve">
     <value>crawling</value>
   </data>
-  <data name="Downloading" xml:space="preserve">
-    <value>downloading</value>
-  </data>
-  <data name="TimeoutReached" xml:space="preserve">
-    <value>A connection timout occured during {0} of {1}.</value>
-  </data>
   <data name="Date" xml:space="preserve">
     <value>Date: {0}</value>
-  </data>
-  <data name="DeleteBlogsDialog" xml:space="preserve">
-    <value>Do you really want to delete the following blog indices?
-{0}.</value>
   </data>
   <data name="DeleteBlogsAndFilesDialog" xml:space="preserve">
     <value>Do you really want to delete the following blog indices including all downloaded files?
 {0}.</value>
   </data>
+  <data name="DeleteBlogsDialog" xml:space="preserve">
+    <value>Do you really want to delete the following blog indices?
+{0}.</value>
+  </data>
   <data name="DiskFull" xml:space="preserve">
     <value>There is not enough space on the disk.</value>
   </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>downloading</value>
+  </data>
   <data name="ExportFileFilter" xml:space="preserve">
-    <value>Text Files (*.txt)|*.txt</value>
+    <value>Text files (*.txt)|*.txt</value>
   </data>
   <data name="ExportFileFilterExtension" xml:space="preserve">
     <value>.txt</value>
@@ -261,7 +264,7 @@
     <value>Id3: Year: {0}</value>
   </data>
   <data name="LimitExceeded" xml:space="preserve">
-    <value>Limit exceeded: {0}. You should lower the connections to the tumblr svc.</value>
+    <value>Limit exceeded: {0}. You should lower the connections to the tumblr api in the Settings-&gt;Connection pane.</value>
   </data>
   <data name="Link" xml:space="preserve">
     <value>Link: {0}</value>
@@ -273,7 +276,10 @@
     <value>New version available for download : {0}</value>
   </data>
   <data name="NotLoggedIn" xml:space="preserve">
-    <value>You need to login to tumblr.com for downloading {0}. Go to the Settings-&gt;Authenticate.</value>
+    <value>You need to login to tumblr.com for downloading {0}. Go to the Settings-&gt;Connection-&gt;Authenticate.</value>
+  </data>
+  <data name="OnlineChecking" xml:space="preserve">
+    <value>online checking</value>
   </data>
   <data name="PasswordProtected" xml:space="preserve">
     <value>Password protected blog: {0}. You need to enter the password in the Details.</value>
@@ -282,13 +288,22 @@
     <value>Hidden password protected or offline blog detected: {0}. You need to enter the password in the Details.</value>
   </data>
   <data name="PhotoCaption" xml:space="preserve">
-    <value>Photo Caption: {0}</value>
+    <value>Photo caption: {0}</value>
+  </data>
+  <data name="PhotoSetUrl" xml:space="preserve">
+    <value>Photo set urls: {0}</value>
   </data>
   <data name="PhotoUrl" xml:space="preserve">
-    <value>Photo Url: {0}</value>
+    <value>Photo url: {0}</value>
   </data>
   <data name="PostId" xml:space="preserve">
-    <value>Post ID: {0}</value>
+    <value>Post id: {0}</value>
+  </data>
+  <data name="PostNotParsable" xml:space="preserve">
+    <value>A post from {0} was not parsable. Setting 'posts per page' to 1 in the Details might increase the downloadable content.</value>
+  </data>
+  <data name="PostUrl" xml:space="preserve">
+    <value>Post url: {0}</value>
   </data>
   <data name="ProgressDownloadImage" xml:space="preserve">
     <value>Downloading {0}.</value>
@@ -315,10 +330,13 @@
     <value>Reblog key: {0}</value>
   </data>
   <data name="ReblogName" xml:space="preserve">
-    <value>Reblog Name: {0}</value>
+    <value>Reblog name: {0}</value>
   </data>
   <data name="ReblogUrl" xml:space="preserve">
-    <value>Reblog Url: {0}</value>
+    <value>Reblog url: {0}</value>
+  </data>
+  <data name="Slug" xml:space="preserve">
+    <value>Slug: {0}</value>
   </data>
   <data name="Summary" xml:space="preserve">
     <value>Summary: {0}</value>
@@ -329,6 +347,12 @@
   <data name="Textfile" xml:space="preserve">
     <value>Text file</value>
   </data>
+  <data name="TimeoutReached" xml:space="preserve">
+    <value>A connection timeout occured during {0} of {1}.</value>
+  </data>
+  <data name="TimeoutReachedShort" xml:space="preserve">
+    <value>A connection timeout occured during {0}.</value>
+  </data>
   <data name="Title" xml:space="preserve">
     <value>Title: {0}</value>
   </data>
@@ -336,12 +360,12 @@
     <value>Url with slug: {0}</value>
   </data>
   <data name="VideoCaption" xml:space="preserve">
-    <value>Video Caption: {0}</value>
+    <value>Video caption: {0}</value>
   </data>
   <data name="VideoPlayer" xml:space="preserve">
-    <value>Video Player: {0}</value>
+    <value>Video player: {0}</value>
   </data>
   <data name="VideoSource" xml:space="preserve">
-    <value>Video Source: {0}</value>
+    <value>Video source: {0}</value>
   </data>
 </root>
