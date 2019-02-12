@@ -240,6 +240,15 @@
   <data name="ConcurrentConnections" xml:space="preserve">
     <value>Concurrent connections</value>
   </data>
+  <data name="ConcurrentVideoConnections" xml:space="preserve">
+    <value>Concurrent video connections</value>
+  </data>
+  <data name="ToolTipVideoConnections" xml:space="preserve">
+    <value>Number of concurrent connections to the tumblr video host</value>
+  </data>
+  <data name="ToolTipVideoConnectionsDescription" xml:space="preserve">
+    <value>The v*.tumblr.com hosts regularly close connections if the number is too high.</value>
+  </data>
   <data name="Online" xml:space="preserve">
     <value>Online</value>
   </data>
@@ -254,6 +263,9 @@
   </data>
   <data name="CheckStatus" xml:space="preserve">
     <value>Check blog online status</value>
+  </data>
+  <data name="CheckStatusOnStartup" xml:space="preserve">
+    <value>Check blog online status on startup</value>
   </data>
   <data name="DeleteIndex" xml:space="preserve">
     <value>Delete only the index files (no downloaded files)</value>
@@ -341,6 +353,12 @@ The number is shared between all actively downloading blogs.</value>
   <data name="TimeOut" xml:space="preserve">
     <value>Timeout (s)</value>
   </data>
+  <data name="ToolTipTimeout" xml:space="preserve">
+    <value>Timeout for web requests</value>
+  </data>
+  <data name="ToolTipTimeoutDescription" xml:space="preserve">
+    <value>The length of time, in seconds, until the request times out.</value>
+  </data>
   <data name="Bandwidth" xml:space="preserve">
     <value>Limit Bandwidth (KB/s)</value>
   </data>
@@ -349,6 +367,9 @@ The number is shared between all actively downloading blogs.</value>
   </data>
   <data name="Timer" xml:space="preserve">
     <value>(hh:mm:ss) and add</value>
+  </data>
+  <data name="AutoDownloadBlogs" xml:space="preserve">
+    <value>blogs to the queue.</value>
   </data>
   <data name="SelectABlog" xml:space="preserve">
     <value>Please select a blog</value>
@@ -620,19 +641,19 @@ E.g. 50 means to scan 50 posts per page.</value>
   <data name="ToolTipDownloadFrom" xml:space="preserve">
     <value>Crawl posts from this date</value>
   </data>
-  <data name="ToolTipDownloadTagsFromDescription" xml:space="preserve">
-    <value>Must be in YYYYMMDD format. Empty means from May 2007.</value>
+  <data name="ToolTipDownloadFromDescription" xml:space="preserve">
+    <value>Must be in YYYYMMDD format. Empty means from the beginning of the blog.</value>
   </data>
   <data name="ToolTipDownloadTo" xml:space="preserve">
     <value>Crawl posts to this date</value>
   </data>
-  <data name="ToolTipDownloadTagsToDescription" xml:space="preserve">
+  <data name="ToolTipDownloadToDescription" xml:space="preserve">
     <value>Must be in YYYYMMDD format. Empty means to now.</value>
   </data>
-  <data name="ToolTipDownloadFromDescription" xml:space="preserve">
-    <value>Must be in YYYYMMDD format. Empty means from the beginning of the blog.</value>
+  <data name="ToolTipDownloadTagsFromDescription" xml:space="preserve">
+    <value>Must be in YYYYMMDD format. Empty means from May 2007.</value>
   </data>
-  <data name="ToolTipDownloadToDescription" xml:space="preserve">
+  <data name="ToolTipDownloadTagsToDescription" xml:space="preserve">
     <value>Must be in YYYYMMDD format. Empty means to now.</value>
   </data>
   <data name="ToolTipPageSizeTumblrSearch" xml:space="preserve">
@@ -684,38 +705,20 @@ E.g.  great big car, bears searches for great big cars and bears.</value>
   <data name="BlogtypeTwitter" xml:space="preserve">
     <value>Twitter</value>
   </data>
-  <data name="AutoDownloadBlogs" xml:space="preserve">
-    <value>blogs to the queue.</value>
-  </data>
-  <data name="ToolTipTimeout" xml:space="preserve">
-    <value>Timeout for web requests</value>
-  </data>
-  <data name="ToolTipTimeoutDescription" xml:space="preserve">
-    <value>The length of time, in seconds, until the request times out.</value>
-  </data>
-  <data name="ConcurrentVideoConnections" xml:space="preserve">
-    <value>Concurrent video connections</value>
-  </data>
-  <data name="ToolTipVideoConnections" xml:space="preserve">
-    <value>Number of concurrent connections to the tumblr video host</value>
-  </data>
-  <data name="ToolTipVideoConnectionsDescription" xml:space="preserve">
-    <value>The v*.tumblr.com hosts regularly close connections if the number is too high.</value>
-  </data>
   <data name="ExternalSettings" xml:space="preserve">
     <value>External</value>
   </data>
   <data name="DownloadGfycat" xml:space="preserve">
     <value>Download gfycat</value>
   </data>
-  <data name="DownloadWebmshare" xml:space="preserve">
-    <value>Download webmshare</value>
-  </data>
   <data name="ToolTipDownloadGfycat" xml:space="preserve">
     <value>Download linked gfycat.com files</value>
   </data>
   <data name="ToolTipDownloadGfycatDescription" xml:space="preserve">
     <value>Download externally hosted gfycat.com files</value>
+  </data>
+  <data name="DownloadWebmshare" xml:space="preserve">
+    <value>Download webmshare</value>
   </data>
   <data name="ToolTipDownloadWebmshare" xml:space="preserve">
     <value>Download linked webmshare.com files</value>
@@ -794,12 +797,6 @@ Activation will increase the memory usage during operation based on the amount o
   <data name="DownloadUguu" xml:space="preserve">
     <value>Download uguu</value>
   </data>
-  <data name="ToolTipCatBoxFiletype" xml:space="preserve">
-    <value>File type to download</value>
-  </data>
-  <data name="ToolTipCatBoxFiletypeDescription" xml:space="preserve">
-    <value>Chose which file type you want to download</value>
-  </data>
   <data name="ToolTipDownloadCatBox" xml:space="preserve">
     <value>Download linked CatBox files</value>
   </data>
@@ -829,6 +826,12 @@ Activation will increase the memory usage during operation based on the amount o
   </data>
   <data name="ToolTipDownloadUguuDescription" xml:space="preserve">
     <value>Download externally hosted Uguu files</value>
+  </data>
+  <data name="ToolTipCatBoxFiletype" xml:space="preserve">
+    <value>File type to download</value>
+  </data>
+  <data name="ToolTipCatBoxFiletypeDescription" xml:space="preserve">
+    <value>Chose which file type you want to download</value>
   </data>
   <data name="ToolTipLoliSafeFiletype" xml:space="preserve">
     <value>File type to download</value>
@@ -902,9 +905,6 @@ The cookie with your credentials of your account is saved and the authentication
   </data>
   <data name="ToolTipLogoutDescription" xml:space="preserve">
     <value>Removes the cookies used for authentication from the system.</value>
-  </data>
-  <data name="CheckStatusOnStartup" xml:space="preserve">
-    <value>Check blog online status on startup</value>
   </data>
   <data name="ProgressUpdateInterval" xml:space="preserve">
     <value>Progress update interval (ms)</value>
